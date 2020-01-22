@@ -10,7 +10,7 @@ body {
   background-color: #ebebeb;
 }
 
-#navbar{
+#navbar {
   width: 100vw;
   background-color: #EAC926;
   display: flex;
@@ -18,39 +18,39 @@ body {
   padding: 10px;
 }
 
-#logo{
+#logo {
   height: 6vh;
 }
 
-#search-bar{
+#search-bar {
   height: 6vh;
   border: 1px solid #ebebeb;
   border-radius: 3px;
 }
 
-#header{
+#header {
   color: #03264C;
   margin: 15px auto;
 }
 
-.title{
+.title {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   padding-left: 3em;
 }
 
-#banner{
+#banner {
   width: 100vw;
 }
 
-#products{
+#products {
   display: flex;
   flex-wrap: wrap;
   padding-left: 4em;
   padding-right: 4em;
 }
 
-#prod-detail{
+#prod-detail {
   box-sizing: border-box;
   padding-left: 1em;
   display: flex;
@@ -60,26 +60,34 @@ body {
   border-radius: 2%;
 }
 
-#prod-img{
+#prod-img {
   width: 100%;
   margin-bottom: 1em;
 }
 
-.info{
+.info {
   display: flex;
   margin-bottom: 1em;
   align-items: center;
 }
 
-#price{
+#price {
   color: black;
   font-size: 24px;
   display: inline-block;
 }
 
-#discount{
+#discount {
   color: #39b54a;
   font-size: 15px;
   margin-left: 10px;
   display: inline-block;
+}
+
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4em;
+  text-align: center;
+  color: #03264C;
 }
